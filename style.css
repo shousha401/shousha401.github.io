@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    color: red;
+    text-align: center;
+}
+img{
+height: 400px;
+width: 400px;
+float: right;
+
+
+
+}
+a{
+    color: red;
+}
+element:hover {
+    cursor:grab/pointer;
+}

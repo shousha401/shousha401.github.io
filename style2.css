@@ -1,0 +1,52 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+  
+  .square.dark {
+    background-color: #8B4513;
+  }
+  
+  .square.light {
+    background-color: #FFEBCD;
+  }
+  
+  img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+  
+  img[src*="p"] {
+    content: url("pieces/p.svg");
+  }
+  
+  img[src*="r"] {
+    content: url("pieces/r.svg");
+  }
+  
+  img[src*="n"] {
+    content: url("pieces/n.svg");
+  }
+  
+  img[src*="b"] {
+    content: url("pieces/b.svg");
+  }
+  
+  img[src*="q"] {
+    content: url("pieces/q.svg");
+  }
+  
+  img[src*="k"] {
+    content: url("pieces/k.svg");
+  }
+  

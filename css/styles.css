@@ -11507,3 +11507,21 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  
+}
+
+.row > div {
+  margin: 0 10px;
+}
+
+.row img {
+  display: block;
+  margin: 0 auto;
+}
